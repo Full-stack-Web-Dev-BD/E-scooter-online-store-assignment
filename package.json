@@ -1,0 +1,32 @@
+{
+  "name": "express-mongo-starter",
+  "engines": {
+    "node": "13.8.0"
+  },
+  "version": "1.0.0",
+  "description": "This is a boilerplate for express apps with mongodb",
+  "main": "Assignment1.js",
+  "scripts": {
+    "start": "nodemon Assignment1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madhavpokhrel/express-mongo-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Madhavpokhrel/express-mongo-starter/issues"
+  },
+  "homepage": "https://github.com/Madhavpokhrel/express-mongo-starter#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.9.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2"
+  }
+}
